@@ -10,6 +10,31 @@
     color: white;
 }
 
+.body {
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rodape{
+    position: relative;
+    background-color: #188be9;;
+    color: white;
+    text-align: center;
+    padding:50px;
+    font-size: 20px;
+}
+
+.body h1{
+    padding-bottom: 50px;
+}
+
+#banner img {
+    height:500px;
+    width: 100%;
+}
+
 .menu ul{
     text-align: center;
 }
@@ -39,8 +64,4 @@
 
 .menu ul li:hover ul {
     display: block;
-}
-
-.menu ul li ul li a{
-
 }
