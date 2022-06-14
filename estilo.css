@@ -5,16 +5,24 @@
 
 }
 
+h2{
+    font-size: 28px; color: #188be9;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    color:rgb(95, 94, 94)
+}
+
 .menu {
     background-color: rgba(0, 0, 0, 0.842);
     color: white;
 }
 
-.body {
-    margin-left:150px;
-    margin-right: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.body, .values{
+    text-align: center;
 }
 
 .rodape{
@@ -26,8 +34,37 @@
     font-size: 20px;
 }
 
-.body h1{
-    padding-bottom: 50px;
+.history, .team {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.portifolio {
+    margin-top:25px;
+    text-align: center;
+}
+
+.personal-id {
+    position: relative;
+}
+
+.personal-name{
+    position: absolute;
+}
+
+.personal-img {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.personal-img img{
+    height: 200px;
+    width: 300px;
+    border: 1px solid #f3f3f3;
+    border-radius: 2%;
 }
 
 #banner img {
@@ -35,8 +72,50 @@
     width: 100%;
 }
 
-.menu ul{
+.menu ul {
     text-align: center;
+}
+
+.history p, .team p{
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.history h2, .team h2{
+    margin-bottom: 50px;
+}
+
+.imagens ul, .personal-id {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.imagens ul li {
+    display: inline;
+}
+
+.body ul li {
+    padding: 25px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+}
+
+.values ul li {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(228, 228, 228);
+    border-radius: 2%;
+}
+
+.body ul li:hover {
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
 }
 
 .menu ul li {
@@ -44,7 +123,7 @@
     position: relative;
 }
 
-.menu ul li a{
+.menu ul li a, .menu h5{
     display: inline-block;
     padding: 20px;
     color: white;
@@ -60,6 +139,12 @@
     left: 0;
     background-color:#188be9;
     display: none;
+}
+
+.imagens ul li img{
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
 }
 
 .menu ul li:hover ul {
