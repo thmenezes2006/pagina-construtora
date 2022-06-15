@@ -13,7 +13,11 @@ h2{
 
 p {
     font-size: 20px;
-    color:rgb(95, 94, 94)
+    color:rgb(32, 32, 32)
+}
+
+.blog {
+    padding-bottom:50px;
 }
 
 .menu {
@@ -34,7 +38,7 @@ p {
     font-size: 20px;
 }
 
-.history, .team {
+.history, .team, .blog, .news {
     margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
@@ -46,18 +50,54 @@ p {
     text-align: center;
 }
 
+.news {
+    position: relative;
+    padding-bottom: 30px;
+}
+
 .personal-id {
     position: relative;
 }
 
 .personal-name{
     position: absolute;
+    left: 15px;
+    bottom: 15px;
+    background-color: #067bdb;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .personal-img {
     display: inline-block;
     position: relative;
     margin-left: 10px;
+}
+
+.news-img {
+    margin-left: 0px;
+    width: 250px;
+}
+.news-name {
+    left: 300px;px;
+    position: absolute;
+    width: 550px;
+    text-align: left;
+
+}
+.news p{
+    font-size: 16px;
+}
+.news-img img {
+    padding-bottom: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 2%;
+}
+.news a{
+    font-size: 12px;
+    color: gray;
 }
 
 .personal-img img{
@@ -74,6 +114,7 @@ p {
 
 .menu ul {
     text-align: center;
+    display: table;
 }
 
 .history p, .team p{
@@ -130,11 +171,14 @@ p {
     text-decoration: none;
 }
 
-.menu ul li a:hover ,.entrar {
+.menu ul li:hover ,.entrar {
+    padding-top:20px;
+    padding-bottom:21px;
     background-color: #188be9;
 }
 
 .menu ul li ul {
+    width: 100%;
     position: absolute;
     left: 0;
     background-color:#188be9;
@@ -149,4 +193,9 @@ p {
 
 .menu ul li:hover ul {
     display: block;
+}
+
+.menu ul li ul :hover {
+    width: 80px;
+    background-color:#0e7bd4
 }
